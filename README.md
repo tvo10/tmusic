@@ -1,10 +1,11 @@
-# ngSpotify Angular 2 Application
+# Angular Application
 
-This is an Angular 2 app that uses the Spotify API to search and list musical artists and albums. It is part of a 12 project course at [Eduonix.xom](https://www.eduonix.com/affiliates/id/16-10413). 
+This is an Angular + Bootstrap app that uses the Spotify API to search and list musical artists and albums. Users can search for:
+* Song names and get a list of songs with the name that they searched for.
+* Artist and get a list of songs and albums that the artist owns.
+* Album and get a list of songs in that album
 
-### Version
-
-This is version 1.1 which uses Angular 2 RC6. The "rc4_old" folder contains the original RC4 version from the Youtube course at https://www.youtube.com/watch?v=f6SrTZwZi70
+This app is adapted from [1](https://github.com/bradtraversy/ngspotify) and [2](https://github.com/akashkaushik33/ngSpotify)
 
 ### Installation
 
