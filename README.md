@@ -7,7 +7,18 @@ This is an Angular + Bootstrap app that uses the Spotify API to search and list 
 
 This app is adapted from [1](https://github.com/bradtraversy/ngspotify) and [2](https://github.com/akashkaushik33/ngSpotify)
 
-### Installation
+## Process
+I first took the template as shown below from the [first source](https://github.com/bradtraversy/ngspotify)
+<p>
+  <img src="https://github.com/tvo10/tmusic/blob/main/img/template.PNG" />
+</p>
+
+Then I adapted the code from the [second source](https://github.com/bradtraversy/ngspotify). You can also check the implemeted site from the author [here](https://akashkaushik33.github.io/ngSpotify/)
+<p>
+  <img src="https://github.com/tvo10/tmusic/blob/main/img/source_code.PNG" />
+</p>
+
+## Installation
 
 Install the dependencies and devDependencies and start the server.
 
