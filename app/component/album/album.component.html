@@ -9,10 +9,10 @@
             <div class="row">   
               <div class="col-md-6">
                   <div *ngIf="album.images.length > 0">
-                      <img src="{{album.images[0].url}}" class="album-thumb">
+                      <img src="{{album.images[0].url}}" class="img-thumbnail">
                   </div>
               </div>
-              <div class="col-md-5">
+              <div id='box' class="col-md-6">
                     <h4 *ngIf="album.artists.length > 0"><span *ngFor="let artist of album.artists">
                       {{artist.name}}
                     </span></h4>
@@ -34,19 +34,18 @@
 </div>
 
 <style>
-  .col-md-5{
-    font-family: 'Oswald', sans-serif;
+  #box.col-md-6{
+    font-family: 'Oswald', sans-serif; 
+    padding: 100px 30px;
+
+  }
+  #box.col-md-6 h4, 
+  #box.col-md-6 h2,
+  #box.col-md-6 h5 {
     font-size: xx-large;
   }
-  .col-md-6 {
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 4px;
-    }
 
-    .col-md-6 img {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-    }
+  #box.col-md-6 a {
+    font-size: x-large;
+  }
 </style>

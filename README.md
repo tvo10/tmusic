@@ -7,6 +7,7 @@ This is an Angular 2 + Bootstrap app that uses the Spotify API to search and lis
 * Album and get a list of songs in that album.
 
 This app is adapted from [1](https://github.com/bradtraversy/ngspotify) and [2](https://github.com/akashkaushik33/ngSpotify).
+>>>>>>> 943ada9d7b92e0cba1138353b3466e126d2e1a33
 
 ## Process
 I first took the template as shown below from the [first source](https://github.com/bradtraversy/ngspotify).
